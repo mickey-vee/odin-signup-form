@@ -95,7 +95,7 @@ input:focus-visible {
   box-shadow: 0 0 5px rgba(76, 79, 82, 0.5);
 }
 
-input:focus:invalid {
+input:invalid {
   border: 1px solid rgb(240, 27, 27);
 }
 
