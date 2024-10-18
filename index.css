@@ -49,11 +49,19 @@ body {
 }
 
 .hero,
-.form,
 .create {
   flex: 1;
   padding-left: 30px;
   padding-right: 200px;
+}
+
+.form {
+  padding: 30px 200px 30px 30px;
+}
+
+.form-text {
+  margin: 0;
+  padding-bottom: 15px;
 }
 
 .hero {
@@ -62,6 +70,7 @@ body {
   background-color: rgb(248, 246, 246);
   align-content: flex-end;
   padding-bottom: 30px;
+  font-size: 20px;
 }
 
 form {
@@ -93,4 +102,28 @@ input:focus-visible {
 label input {
   border: 1px solid #e5e7eb;
   font-size: 15px;
+
+  border-radius: 5px;
+}
+
+.create {
+  background-color: rgb(248, 246, 246);
+  padding-top: 30px;
+}
+
+button {
+  background-color: #596d48;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 40px;
+  font-weight: 700;
+  font-size: 14px;
+  box-shadow: 0 0 5px rgba(76, 79, 82, 0.5);
+}
+
+.login {
+  text-decoration: none;
+  color: #596d48;
+  font-weight: 700;
 }
